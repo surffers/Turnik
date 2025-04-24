@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Изготовление турников премиум-класса | Индивидуальный подход</title>
+<meta name="description" content="Изготавливаем турники премиум-класса из высококачественных материалов. Индивидуальный подход, гарантия качества, доставка по всей России.">
+<meta name="keywords" content="турники, изготовление турников, спортивное оборудование, уличные турники, домашние турники, спорт, воркаут, тренировки, фитнес, силовые тренировки">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#FF4D00',secondary:'#2A2A2A'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #121212;
+color: #ffffff;
+scroll-behavior: smooth;
+}
+/* Стили для скроллбара */
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+background: #FF4D00;
+border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #cc3d00;
+}
+/* Стили для скроллбара в модальных окнах */
+.modal ::-webkit-scrollbar {
+width: 8px;
+}
+.modal ::-webkit-scrollbar-track {
+background: #222;
+border-radius: 4px;
+}
+.modal ::-webkit-scrollbar-thumb {
+background: #FF4D00;
+border-radius: 4px;
+}
+.modal ::-webkit-scrollbar-thumb:hover {
+background: #cc3d00;
+}
+.hero-section {
+background-image: linear-gradient(to right, rgba(18, 18, 18, 0.9) 0%, rgba(18, 18, 18, 0.7) 50%, rgba(18, 18, 18, 0.5) 100%), url('https://readdy.ai/api/search-image?query=professional%2520workout%2520pull-up%2520bar%2520equipment%2520in%2520a%2520modern%2520gym%2520with%2520dramatic%2520lighting%252C%2520muscular%2520athlete%2520performing%2520pull-ups%252C%2520dark%2520atmosphere%252C%2520high-end%2520fitness%2520equipment%252C%2520industrial%2520style%252C%2520high%2520quality%2520materials%252C%2520professional%2520photography&width=1920&height=1080&seq=1&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.gradient-overlay {
+background: linear-gradient(to bottom, rgba(18, 18, 18, 0) 0%, rgba(18, 18, 18, 1) 100%);
+}
+.card-hover:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(255, 77, 0, 0.2);
+}
+.custom-checkbox {
+position: relative;
+padding-left: 30px;
+cursor: pointer;
+user-select: none;
+}
+.custom-checkbox input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 20px;
+width: 20px;
+background-color: #2A2A2A;
+border-radius: 4px;
+transition: all 0.2s ease;
+}
+.custom-checkbox:hover input ~ .checkmark {
+background-color: #333;
+}
+.custom-checkbox input:checked ~ .checkmark {
+background-color: #FF4D00;
+}
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+.custom-checkbox input:checked ~ .checkmark:after {
+display: block;
+}
+.custom-checkbox .checkmark:after {
+left: 7px;
+top: 3px;
+width: 6px;
+height: 12px;
+border: solid white;
+border-width: 0 2px 2px 0;
+transform: rotate(45deg);
+}
+.modal {
+opacity: 0;
+visibility: hidden;
+transition: all 0.3s ease;
+}
+.modal.active {
+opacity: 1;
+visibility: visible;
+}
+.scroll-top, .support-btn {
+transition: all 0.3s ease;
+}
+.scroll-top:hover, .support-btn:hover {
+transform: translateY(-3px);
+}
+input, textarea {
+background-color: #1E1E1E;
+border: 1px solid #333;
+color: white;
+}
+input:focus, textarea:focus {
+border-color: #FF4D00;
+outline: none;
+}
+.product-card {
+background: linear-gradient(145deg, #1a1a1a, #222);
+}
+.product-card:hover {
+background: linear-gradient(145deg, #1e1e1e, #262626);
+}
+.advantage-card {
+background: linear-gradient(145deg, #1a1a1a, #222);
+transition: all 0.3s ease;
+}
+.advantage-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(255, 77, 0, 0.15);
+}
+.custom-switch {
+position: relative;
+display: inline-block;
+width: 50px;
+height: 24px;
+}
+.custom-switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #2A2A2A;
+transition: .4s;
+border-radius: 34px;
+}
+.slider:before {
+position: absolute;
+content: "";
+height: 16px;
+width: 16px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+transition: .4s;
+border-radius: 50%;
+}
+input:checked + .slider {
+background-color: #FF4D00;
+}
+input:checked + .slider:before {
+transform: translateX(26px);
+}
+</style>
+<link rel="icon" type="image/png" href="https://readdy.ai/api/search-image?query=minimalist%2520icon%2520of%2520pull-up%2520bar%2520in%2520orange%2520color%2520on%2520transparent%2520background%252C%2520simple%2520line%2520art%252C%2520professional%2520logo%2520design&width=32&height=32&seq=2&orientation=squarish">
+</head>
+<body>
+<!-- Навигация -->
+<nav class="fixed top-0 left-0 w-full bg-[#121212] bg-opacity-95 z-50 border-b border-[#333333]">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="#" class="text-2xl font-['Pacifico'] text-primary">logo</a>
+<div class="hidden md:flex space-x-8">
+<a href="#advantages" class="text-white hover:text-primary transition-colors">Преимущества</a>
+<a href="#products" class="text-white hover:text-primary transition-colors">Продукция</a>
+<a href="#about" class="text-white hover:text-primary transition-colors">О нас</a>
+<a href="#reviews" class="text-white hover:text-primary transition-colors">Отзывы</a>
+<a href="#contacts" class="text-white hover:text-primary transition-colors">Контакты</a>
+</div>
+<a href="#order" class="hidden md:block bg-primary text-white px-6 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap">Заказать</a>
+<button class="md:hidden w-10 h-10 flex items-center justify-center text-white" id="mobile-menu-button">
+<i class="ri-menu-line ri-lg"></i>
+</button>
+</div>
+<div id="mobile-menu" class="hidden md:hidden bg-[#1A1A1A] w-full">
+<div class="container mx-auto px-4 py-4 flex flex-col space-y-4">
+<a href="#advantages" class="text-white hover:text-primary transition-colors">Преимущества</a>
+<a href="#products" class="text-white hover:text-primary transition-colors">Продукция</a>
+<a href="#about" class="text-white hover:text-primary transition-colors">О нас</a>
+<a href="#reviews" class="text-white hover:text-primary transition-colors">Отзывы</a>
+<a href="#contacts" class="text-white hover:text-primary transition-colors">Контакты</a>
+<a href="#order" class="bg-primary text-white px-6 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all text-center whitespace-nowrap">Заказать</a>
+</div>
+</div>
+</nav>
+<!-- Главный экран -->
+<section class="hero-section min-h-screen flex items-center pt-20">
+<div class="container mx-auto px-4 py-16">
+<div class="max-w-3xl">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">Турники премиум-класса для <span class="text-primary">максимальных результатов</span></h1>
+<p class="text-xl md:text-2xl mb-8 text-gray-300">Изготавливаем профессиональные турники из высококачественных материалов с индивидуальным подходом к каждому клиенту</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#products" class="bg-primary text-white px-8 py-4 !rounded-button font-medium hover:bg-opacity-90 transition-all text-center whitespace-nowrap">Выбрать турник</a>
+<a href="#about" class="bg-transparent border-2 border-white text-white px-8 py-4 !rounded-button font-medium hover:bg-white hover:bg-opacity-10 transition-all text-center whitespace-nowrap">Узнать больше</a>
+</div>
+<div class="mt-12 flex items-center">
+<div class="flex -space-x-2">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520athletic%2520man%2520with%2520short%2520hair%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=3&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full border-2 border-primary object-cover object-top">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520athletic%2520woman%2520with%2520ponytail%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=4&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full border-2 border-primary object-cover object-top">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520athletic%2520man%2520with%2520beard%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=5&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full border-2 border-primary object-cover object-top">
+</div>
+<div class="ml-4">
+<p class="text-white">Более <span class="text-primary font-bold">500+</span> довольных клиентов</p>
+<div class="flex text-primary mt-1">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<span class="text-gray-300 ml-1">5.0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-32 gradient-overlay"></div>
+<div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+<a href="#advantages" class="w-10 h-10 flex items-center justify-center text-white">
+<i class="ri-arrow-down-line ri-xl"></i>
+</a>
+</div>
+</section>
+<!-- Преимущества -->
+<section id="advantages" class="py-20 bg-[#121212]">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Почему выбирают <span class="text-primary">наши турники</span></h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Мы создаем не просто спортивное оборудование, а инструменты для достижения ваших физических целей</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="advantage-card p-6 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-shield-check-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Высокое качество</h3>
+<p class="text-gray-400">Используем только высококачественные материалы, которые проходят строгий контроль качества</p>
+</div>
+<div class="advantage-card p-6 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-tools-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Индивидуальный подход</h3>
+<p class="text-gray-400">Создаем турники по индивидуальным параметрам с учетом всех ваших пожеланий</p>
+</div>
+<div class="advantage-card p-6 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-time-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Долговечность</h3>
+<p class="text-gray-400">Наши турники служат десятилетиями благодаря прочным материалам и надежной конструкции</p>
+</div>
+<div class="advantage-card p-6 rounded-lg">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-truck-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Быстрая доставка</h3>
+<p class="text-gray-400">Доставляем заказы по всей России в кратчайшие сроки собственной логистической службой</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Продукция -->
+<section id="products" class="py-20 bg-[#0A0A0A]">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Наша <span class="text-primary">продукция</span></h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Выберите турник, который идеально подойдет для ваших тренировок и поможет достичь желаемых результатов</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="product-card rounded-lg overflow-hidden card-hover transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%2520wall-mounted%2520pull-up%2520bar%2520made%2520of%2520high-quality%2520black%2520metal%252C%2520sturdy%2520construction%252C%2520clean%2520background%252C%2520product%2520photography%252C%2520high%2520resolution%252C%2520detailed%2520view%2520of%2520mounting%2520brackets&width=600&height=400&seq=6&orientation=landscape" alt="Настенный турник" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Настенный турник "Профи"</h3>
+<p class="text-gray-400 mb-4">Профессиональный настенный турник с усиленной конструкцией для интенсивных тренировок</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Нагрузка до 300 кг</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Сталь 3 мм</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Антискользящее покрытие</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-white">7 900 ₽</span>
+<button class="buy-button bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap" data-product="Настенный турник 'Профи'" data-price="7900">Купить</button>
+</div>
+</div>
+</div>
+<div class="product-card rounded-lg overflow-hidden card-hover transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%2520ceiling-mounted%2520pull-up%2520bar%2520made%2520of%2520high-quality%2520black%2520metal%252C%2520sturdy%2520construction%252C%2520clean%2520background%252C%2520product%2520photography%252C%2520high%2520resolution%252C%2520detailed%2520view%2520of%2520mounting%2520system&width=600&height=400&seq=7&orientation=landscape" alt="Потолочный турник" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Потолочный турник "Максимум"</h3>
+<p class="text-gray-400 mb-4">Надежный потолочный турник с возможностью регулировки высоты для комфортных тренировок</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Нагрузка до 350 кг</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Сталь 4 мм</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Регулируемая высота</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-white">9 500 ₽</span>
+<button class="buy-button bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap" data-product="Потолочный турник 'Максимум'" data-price="9500">Купить</button>
+</div>
+</div>
+</div>
+<div class="product-card rounded-lg overflow-hidden card-hover transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%2520free-standing%2520pull-up%2520bar%2520station%2520made%2520of%2520high-quality%2520black%2520metal%252C%2520sturdy%2520construction%252C%2520clean%2520background%252C%2520product%2520photography%252C%2520high%2520resolution%252C%2520detailed%2520view%2520of%2520the%2520entire%2520structure&width=600&height=400&seq=8&orientation=landscape" alt="Напольный турник" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Напольный турник "Универсал"</h3>
+<p class="text-gray-400 mb-4">Многофункциональный напольный турник, не требующий крепления к стенам или потолку</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Нагрузка до 250 кг</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Сталь 3 мм</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Компактность</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-white">12 900 ₽</span>
+<button class="buy-button bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap" data-product="Напольный турник 'Универсал'" data-price="12900">Купить</button>
+</div>
+</div>
+</div>
+<div class="product-card rounded-lg overflow-hidden card-hover transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%2520outdoor%2520pull-up%2520bar%2520made%2520of%2520high-quality%2520metal%2520with%2520weather-resistant%2520coating%252C%2520sturdy%2520construction%252C%2520clean%2520background%252C%2520product%2520photography%252C%2520high%2520resolution%252C%2520detailed%2520view%2520of%2520the%2520entire%2520structure&width=600&height=400&seq=9&orientation=landscape" alt="Уличный турник" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Уличный турник "Атлет"</h3>
+<p class="text-gray-400 mb-4">Прочный уличный турник с антикоррозийным покрытием для тренировок на свежем воздухе</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Нагрузка до 400 кг</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Сталь 5 мм</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Антикоррозийное покрытие</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-white">15 700 ₽</span>
+<button class="buy-button bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap" data-product="Уличный турник 'Атлет'" data-price="15700">Купить</button>
+</div>
+</div>
+</div>
+<div class="product-card rounded-lg overflow-hidden card-hover transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%2520doorway%2520pull-up%2520bar%2520made%2520of%2520high-quality%2520metal%252C%2520sturdy%2520construction%252C%2520clean%2520background%252C%2520product%2520photography%252C%2520high%2520resolution%252C%2520detailed%2520view%2520of%2520the%2520mounting%2520system&width=600&height=400&seq=10&orientation=landscape" alt="Дверной турник" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Дверной турник "Компакт"</h3>
+<p class="text-gray-400 mb-4">Удобный турник для дверного проема с быстрой установкой и демонтажем без сверления</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Нагрузка до 150 кг</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Сталь 2 мм</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Быстрый монтаж</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-white">3 900 ₽</span>
+<button class="buy-button bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap" data-product="Дверной турник 'Компакт'" data-price="3900">Купить</button>
+</div>
+</div>
+</div>
+<div class="product-card rounded-lg overflow-hidden card-hover transition-all duration-300">
+<div class="h-64 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%2520multi-grip%2520pull-up%2520bar%2520made%2520of%2520high-quality%2520black%2520metal%252C%2520sturdy%2520construction%2520with%2520multiple%2520grip%2520positions%252C%2520clean%2520background%252C%2520product%2520photography%252C%2520high%2520resolution%252C%2520detailed%2520view%2520of%2520the%2520grip%2520areas&width=600&height=400&seq=11&orientation=landscape" alt="Турник с разным хватом" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Турник "Мультихват"</h3>
+<p class="text-gray-400 mb-4">Турник с различными вариантами хвата для проработки всех групп мышц верхней части тела</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Нагрузка до 280 кг</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">Сталь 3 мм</span>
+<span class="bg-[#1E1E1E] text-gray-300 px-3 py-1 rounded-full text-sm">8 вариантов хвата</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-2xl font-bold text-white">8 900 ₽</span>
+<button class="buy-button bg-primary text-white px-4 py-2 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap" data-product="Турник 'Мультихват'" data-price="8900">Купить</button>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-12">
+<a href="#order" class="bg-primary text-white px-8 py-4 !rounded-button font-medium hover:bg-opacity-90 transition-all inline-block whitespace-nowrap">Заказать индивидуальный турник</a>
+</div>
+</div>
+</section>
+<!-- О нас -->
+<section id="about" class="py-20 bg-[#121212]">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-3xl md:text-4xl font-bold mb-6">О нашей <span class="text-primary">компании</span></h2>
+<p class="text-gray-300 mb-6">Мы специализируемся на изготовлении высококачественных турников и спортивного оборудования с 2010 года. За это время мы накопили огромный опыт и разработали уникальные технологии производства, которые позволяют нам создавать продукцию премиум-класса.</p>
+<p class="text-gray-300 mb-6">Наша команда состоит из профессиональных инженеров, дизайнеров и спортсменов, которые знают все о правильных тренировках и эргономике спортивного оборудования. Мы постоянно совершенствуем наши изделия, учитывая отзывы клиентов и последние тенденции в фитнес-индустрии.</p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2">13+</div>
+<p class="text-gray-400">лет опыта</p>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2">5000+</div>
+<p class="text-gray-400">довольных клиентов</p>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2">100%</div>
+<p class="text-gray-400">гарантия качества</p>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold text-primary mb-2">85+</div>
+<p class="text-gray-400">городов доставки</p>
+</div>
+</div>
+</div>
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=professional%2520workshop%2520for%2520manufacturing%2520metal%2520pull-up%2520bars%252C%2520workers%2520in%2520protective%2520gear%2520welding%2520and%2520assembling%2520equipment%252C%2520industrial%2520setting%252C%2520high-quality%2520materials%2520visible%252C%2520professional%2520photography%252C%2520dramatic%2520lighting&width=600&height=700&seq=12&orientation=portrait" alt="Наше производство" class="w-full h-[500px] object-cover object-top rounded-lg">
+<div class="absolute -bottom-6 -right-6 bg-primary p-6 rounded-lg">
+<div class="text-2xl font-bold text-white mb-2">Собственное производство</div>
+<p class="text-white text-opacity-90">Полный цикл от проектирования до готового изделия</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Почему выбирают нас -->
+<section class="py-20 bg-[#0A0A0A]">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Почему клиенты <span class="text-primary">выбирают нас</span></h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Мы стремимся не просто продавать турники, а помогать людям достигать своих спортивных целей</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-[#161616] p-8 rounded-lg">
+<div class="w-14 h-14 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-award-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Сертифицированные материалы</h3>
+<p class="text-gray-400">Используем только сертифицированные материалы, которые проходят строгий контроль качества и соответствуют всем стандартам безопасности</p>
+</div>
+<div class="bg-[#161616] p-8 rounded-lg">
+<div class="w-14 h-14 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-settings-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Инженерный подход</h3>
+<p class="text-gray-400">Каждый турник проектируется инженерами с учетом биомеханики человеческого тела для максимально эффективных и безопасных тренировок</p>
+</div>
+<div class="bg-[#161616] p-8 rounded-lg">
+<div class="w-14 h-14 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-customer-service-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Поддержка клиентов</h3>
+<p class="text-gray-400">Наша команда поддержки всегда готова помочь с выбором, установкой и обслуживанием турника в любое удобное для вас время</p>
+</div>
+<div class="bg-[#161616] p-8 rounded-lg">
+<div class="w-14 h-14 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-medal-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Гарантия качества</h3>
+<p class="text-gray-400">Предоставляем гарантию на все наши изделия сроком от 3 до 5 лет, а также бесплатное обслуживание в течение первого года</p>
+</div>
+<div class="bg-[#161616] p-8 rounded-lg">
+<div class="w-14 h-14 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-money-dollar-circle-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Гибкая система оплаты</h3>
+<p class="text-gray-400">Предлагаем различные способы оплаты, включая рассрочку и кредит, чтобы сделать наши турники доступными для каждого</p>
+</div>
+<div class="bg-[#161616] p-8 rounded-lg">
+<div class="w-14 h-14 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-user-star-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Консультации тренеров</h3>
+<p class="text-gray-400">При покупке турника вы получаете бесплатную консультацию профессионального тренера по эффективным тренировкам</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Отзывы -->
+<section id="reviews" class="py-20 bg-[#121212]">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Отзывы наших <span class="text-primary">клиентов</span></h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Узнайте, что говорят о нас те, кто уже приобрел наши турники и тренируется на них</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-[#1A1A1A] p-6 rounded-lg">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-300 mb-6">"Заказал настенный турник 'Профи' для домашних тренировок. Качество превзошло все ожидания! Конструкция очень надежная, установка простая, а тренировки стали гораздо эффективнее. Рекомендую всем, кто серьезно относится к своему физическому развитию."</p>
+<div class="flex items-center">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520athletic%2520man%2520with%2520beard%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=13&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full mr-4 object-cover object-top">
+<div>
+<div class="font-semibold">Алексей Петров</div>
+<div class="text-gray-400 text-sm">Москва</div>
+</div>
+</div>
+</div>
+<div class="bg-[#1A1A1A] p-6 rounded-lg">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-300 mb-6">"Долго выбирала между разными производителями, но остановилась на вашей компании и не пожалела! Турник 'Мультихват' просто идеален для моих тренировок. Разные варианты хвата позволяют прорабатывать все группы мышц. Отдельное спасибо за быструю доставку и профессиональную установку!"</p>
+<div class="flex items-center">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520athletic%2520woman%2520with%2520ponytail%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=14&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full mr-4 object-cover object-top">
+<div>
+<div class="font-semibold">Екатерина Соколова</div>
+<div class="text-gray-400 text-sm">Санкт-Петербург</div>
+</div>
+</div>
+</div>
+<div class="bg-[#1A1A1A] p-6 rounded-lg">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-300 mb-6">"Как владелец фитнес-клуба, я очень требователен к спортивному оборудованию. Заказал у вас 10 турников для нашего зала, и все они прекрасно выдерживают интенсивные нагрузки уже больше года. Клиенты в восторге от качества и удобства. Обязательно продолжим сотрудничество!"</p>
+<div class="flex items-center">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520athletic%2520man%2520with%2520short%2520hair%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=15&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full mr-4 object-cover object-top">
+<div>
+<div class="font-semibold">Дмитрий Волков</div>
+<div class="text-gray-400 text-sm">Казань</div>
+</div>
+</div>
+</div>
+<div class="bg-[#1A1A1A] p-6 rounded-lg">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-300 mb-6">"Заказал уличный турник 'Атлет' для дачного участка. Прошло уже два сезона, включая зиму с сильными морозами и снегом, а турник выглядит как новый! Антикоррозийное покрытие действительно работает. Теперь все соседи спрашивают, где я его купил."</p>
+<div class="flex items-center">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520middle-aged%2520man%2520with%2520glasses%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=16&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full mr-4 object-cover object-top">
+<div>
+<div class="font-semibold">Игорь Смирнов</div>
+<div class="text-gray-400 text-sm">Новосибирск</div>
+</div>
+</div>
+</div>
+<div class="bg-[#1A1A1A] p-6 rounded-lg">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-300 mb-6">"Как профессиональный тренер, я перепробовал множество турников разных производителей. Ваш 'Потолочный турник' - лучшее, что я встречал на рынке. Регулировка высоты - это именно то, чего не хватало для тренировок клиентов разного роста. Спасибо за продуманный дизайн!"</p>
+<div class="flex items-center">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520athletic%2520man%2520with%2520short%2520hair%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=17&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full mr-4 object-cover object-top">
+<div>
+<div class="font-semibold">Антон Кузнецов</div>
+<div class="text-gray-400 text-sm">Екатеринбург</div>
+</div>
+</div>
+</div>
+<div class="bg-[#1A1A1A] p-6 rounded-lg">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-300 mb-6">"Заказывала дверной турник 'Компакт' для съемной квартиры, где нельзя сверлить стены. Идеальное решение! Устанавливается за минуту, надежно держится и не оставляет следов на дверном проеме. При переезде легко снимается и берется с собой. Очень довольна покупкой!"</p><div class="flex items-center">
+<img src="https://readdy.ai/api/search-image?query=professional%2520headshot%2520of%2520young%2520woman%2520with%2520short%2520hair%2520and%2520confident%2520expression%252C%2520white%2520background%252C%2520high%2520quality%2520portrait&width=60&height=60&seq=18&orientation=squarish" alt="Клиент" class="w-12 h-12 rounded-full mr-4 object-cover object-top">
+<div>
+<div class="font-semibold">Марина Иванова</div>
+<div class="text-gray-400 text-sm">Краснодар</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Заказ -->
+<section id="order" class="py-20 bg-[#0A0A0A]">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div>
+<h2 class="text-3xl md:text-4xl font-bold mb-6">Закажите свой <span class="text-primary">идеальный турник</span></h2>
+<p class="text-gray-300 mb-8">Заполните форму, и наш специалист свяжется с вами в ближайшее время для уточнения деталей заказа и ответит на все ваши вопросы</p>
+<div class="bg-[#161616] p-8 rounded-lg mb-8">
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4">
+<i class="ri-shield-check-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="font-semibold">Гарантия качества</h3>
+<p class="text-gray-400">Мы уверены в качестве наших турников</p>
+</div>
+</div>
+<div class="flex items-center mb-6">
+<div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4">
+<i class="ri-truck-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="font-semibold">Быстрая доставка</h3>
+<p class="text-gray-400">Доставим ваш заказ в кратчайшие сроки</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4">
+<i class="ri-tools-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="font-semibold">Профессиональная установка</h3>
+<p class="text-gray-400">Наши специалисты качественно установят турник</p>
+</div>
+</div>
+</div>
+<div class="bg-[#161616] p-8 rounded-lg">
+<h3 class="text-xl font-semibold mb-4">Способы оплаты</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-[#1E1E1E] p-4 rounded-lg flex items-center justify-center">
+<i class="ri-visa-fill ri-2x"></i>
+</div>
+<div class="bg-[#1E1E1E] p-4 rounded-lg flex items-center justify-center">
+<i class="ri-mastercard-fill ri-2x"></i>
+</div>
+<div class="bg-[#1E1E1E] p-4 rounded-lg flex items-center justify-center">
+<i class="ri-bank-card-fill ri-2x"></i>
+</div>
+<div class="bg-[#1E1E1E] p-4 rounded-lg flex items-center justify-center">
+<i class="ri-money-ruble-circle-fill ri-2x"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<form id="orderForm" class="bg-[#161616] p-8 rounded-lg">
+<div class="mb-6">
+<label for="product" class="block mb-2 text-gray-300">Выберите модель турника</label>
+<div class="relative">
+<select id="product" name="product" class="w-full bg-[#1E1E1E] border border-[#333] rounded px-4 py-3 text-white appearance-none pr-8">
+<option value="">Выберите модель</option>
+<option value="Настенный турник 'Профи'">Настенный турник "Профи"</option>
+<option value="Потолочный турник 'Максимум'">Потолочный турник "Максимум"</option>
+<option value="Напольный турник 'Универсал'">Напольный турник "Универсал"</option>
+<option value="Уличный турник 'Атлет'">Уличный турник "Атлет"</option>
+<option value="Дверной турник 'Компакт'">Дверной турник "Компакт"</option>
+<option value="Турник 'Мультихват'">Турник "Мультихват"</option>
+<option value="Индивидуальный заказ">Индивидуальный заказ</option>
+</select>
+<div class="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+</div>
+<div class="mb-6">
+<label for="name" class="block mb-2 text-gray-300">Ваше имя</label>
+<input type="text" id="name" name="name" class="w-full bg-[#1E1E1E] border border-[#333] rounded px-4 py-3 text-white" placeholder="Введите ваше имя" required>
+</div>
+<div class="mb-6">
+<label for="phone" class="block mb-2 text-gray-300">Номер телефона</label>
+<input type="tel" id="phone" name="phone" class="w-full bg-[#1E1E1E] border border-[#333] rounded px-4 py-3 text-white" placeholder="+7 (___) ___-__-__" required>
+</div>
+<div class="mb-6">
+<label for="email" class="block mb-2 text-gray-300">Email</label>
+<input type="email" id="email" name="email" class="w-full bg-[#1E1E1E] border border-[#333] rounded px-4 py-3 text-white" placeholder="example@mail.ru" required>
+</div>
+<div class="mb-6">
+<label for="address" class="block mb-2 text-gray-300">Адрес доставки</label>
+<input type="text" id="address" name="address" class="w-full bg-[#1E1E1E] border border-[#333] rounded px-4 py-3 text-white" placeholder="Введите адрес доставки" required>
+</div>
+<div class="mb-6">
+<label for="comment" class="block mb-2 text-gray-300">Комментарий к заказу</label>
+<textarea id="comment" name="comment" rows="3" class="w-full bg-[#1E1E1E] border border-[#333] rounded px-4 py-3 text-white" placeholder="Укажите дополнительные пожелания или вопросы"></textarea>
+</div>
+<div class="mb-6">
+<label class="custom-checkbox mb-2">
+<input type="checkbox" name="agreement" checked required>
+<span class="checkmark"></span>
+<span class="text-gray-300 ml-2">Я согласен на обработку персональных данных</span>
+</label>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-3 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap">Отправить заявку</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Как мы работаем -->
+<section class="py-20 bg-[#121212]">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Как мы <span class="text-primary">работаем</span></h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Простой и понятный процесс заказа турника от консультации до установки</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="relative">
+<div class="bg-[#1A1A1A] p-6 rounded-lg relative z-10">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-customer-service-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">1. Консультация</h3>
+<p class="text-gray-400">Наши специалисты помогут выбрать оптимальный вариант турника под ваши задачи</p>
+</div>
+<div class="hidden lg:block absolute top-1/2 left-full w-full h-0.5 bg-primary bg-opacity-20 -translate-y-1/2 z-0"></div>
+</div>
+<div class="relative">
+<div class="bg-[#1A1A1A] p-6 rounded-lg relative z-10">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-ruler-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">2. Замеры</h3>
+<p class="text-gray-400">Выезжаем на место для точных замеров и оценки условий установки</p>
+</div>
+<div class="hidden lg:block absolute top-1/2 left-full w-full h-0.5 bg-primary bg-opacity-20 -translate-y-1/2 z-0"></div>
+</div>
+<div class="relative">
+<div class="bg-[#1A1A1A] p-6 rounded-lg relative z-10">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-tools-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">3. Производство</h3>
+<p class="text-gray-400">Изготавливаем турник по индивидуальным размерам с учетом всех пожеланий</p>
+</div>
+<div class="hidden lg:block absolute top-1/2 left-full w-full h-0.5 bg-primary bg-opacity-20 -translate-y-1/2 z-0"></div>
+</div>
+<div class="relative">
+<div class="bg-[#1A1A1A] p-6 rounded-lg relative z-10">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-install-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">4. Монтаж</h3>
+<p class="text-gray-400">Профессиональная установка турника с гарантией надежности крепления</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Часто задаваемые вопросы -->
+<section class="py-20 bg-[#0A0A0A]">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Часто задаваемые <span class="text-primary">вопросы</span></h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Ответы на самые популярные вопросы о наших турниках и услугах</p>
+</div>
+<div class="max-w-3xl mx-auto">
+<div class="space-y-4">
+<div class="bg-[#1A1A1A] rounded-lg overflow-hidden">
+<button class="faq-button w-full px-6 py-4 flex justify-between items-center text-left">
+<span class="text-lg font-medium">Как выбрать подходящий турник?</span>
+<i class="ri-add-line text-primary transition-transform"></i>
+</button>
+<div class="faq-answer px-6 pb-4 hidden">
+<p class="text-gray-400">При выборе турника важно учитывать несколько факторов: место установки (стена, потолок, дверной проем), доступное пространство, планируемые нагрузки и тип тренировок. Наши специалисты помогут подобрать оптимальный вариант с учетом всех ваших требований.</p>
+</div>
+</div>
+<div class="bg-[#1A1A1A] rounded-lg overflow-hidden">
+<button class="faq-button w-full px-6 py-4 flex justify-between items-center text-left">
+<span class="text-lg font-medium">Какая максимальная нагрузка на турник?</span>
+<i class="ri-add-line text-primary transition-transform"></i>
+</button>
+<div class="faq-answer px-6 pb-4 hidden">
+<p class="text-gray-400">Максимальная нагрузка зависит от модели турника. Настенные и потолочные турники выдерживают до 350 кг, уличные модели - до 400 кг. Каждый турник проходит тестирование на прочность с трехкратным запасом от заявленной нагрузки.</p>
+</div>
+</div>
+<div class="bg-[#1A1A1A] rounded-lg overflow-hidden">
+<button class="faq-button w-full px-6 py-4 flex justify-between items-center text-left">
+<span class="text-lg font-medium">Сколько времени занимает изготовление?</span>
+<i class="ri-add-line text-primary transition-transform"></i>
+</button>
+<div class="faq-answer px-6 pb-4 hidden">
+<p class="text-gray-400">Стандартные модели турников доступны к отгрузке в течение 1-2 дней. Изготовление турника по индивидуальным размерам занимает 3-5 рабочих дней. При срочном заказе возможно ускоренное производство.</p>
+</div>
+</div>
+<div class="bg-[#1A1A1A] rounded-lg overflow-hidden">
+<button class="faq-button w-full px-6 py-4 flex justify-between items-center text-left">
+<span class="text-lg font-medium">Предоставляется ли гарантия?</span>
+<i class="ri-add-line text-primary transition-transform"></i>
+</button>
+<div class="faq-answer px-6 pb-4 hidden">
+<p class="text-gray-400">Да, мы предоставляем гарантию на все турники от 3 до 5 лет в зависимости от модели. Гарантия распространяется на материалы, сварные швы и комплектующие. При правильной эксплуатации срок службы турника составляет более 10 лет.</p>
+</div>
+</div>
+<div class="bg-[#1A1A1A] rounded-lg overflow-hidden">
+<button class="faq-button w-full px-6 py-4 flex justify-between items-center text-left">
+<span class="text-lg font-medium">Как происходит оплата?</span>
+<i class="ri-add-line text-primary transition-transform"></i>
+</button>
+<div class="faq-answer px-6 pb-4 hidden">
+<p class="text-gray-400">Мы предлагаем различные способы оплаты: наличными, банковской картой, безналичным расчетом. Возможна оплата в рассрочку или кредит. Для заказов с установкой предусмотрена предоплата 50%, остаток - после монтажа.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Контакты -->
+<section id="contacts" class="py-20 bg-[#121212]">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Наши <span class="text-primary">контакты</span></h2>
+<p class="text-gray-400 max-w-2xl mx-auto">Свяжитесь с нами любым удобным способом, и мы ответим на все ваши вопросы</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-[#1A1A1A] p-6 rounded-lg text-center">
+<div class="w-16 h-16 mx-auto flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-phone-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Телефон</h3>
+<a href="tel:+78001234567" class="text-gray-300 hover:text-primary transition-colors">+7 (800) 123-45-67</a>
+<p class="text-gray-400 mt-2">Пн-Пт: 9:00-20:00<br>Сб-Вс: 10:00-18:00</p>
+</div>
+<div class="bg-[#1A1A1A] p-6 rounded-lg text-center">
+<div class="w-16 h-16 mx-auto flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-mail-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Email</h3>
+<a href="mailto:info@turniki-premium.ru" class="text-gray-300 hover:text-primary transition-colors">info@turniki-premium.ru</a>
+<p class="text-gray-400 mt-2">Отвечаем в течение<br>24 часов</p>
+</div>
+<div class="bg-[#1A1A1A] p-6 rounded-lg text-center">
+<div class="w-16 h-16 mx-auto flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-map-pin-line ri-xl text-primary"></i>
+</div>
+<h3 class="text-xl font-semibold mb-3">Адрес</h3>
+<p class="text-gray-300">г. Москва, ул. Спортивная, 42</p>
+<p class="text-gray-400 mt-2">Шоурум и офис<br>Ежедневно: 10:00-20:00</p>
+</div>
+</div>
+<div class="mt-12 bg-[#1A1A1A] p-6 rounded-lg">
+<div class="h-[400px] w-full rounded-lg overflow-hidden">
+<img src="https://public.readdy.ai/gen_page/map_placeholder_1280x720.png" alt="Карта" class="w-full h-full object-cover">
+</div>
+</div>
+</div>
+</section>
+<!-- Подвал -->
+<footer class="bg-[#0A0A0A] py-12">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<div>
+<a href="#" class="text-2xl font-['Pacifico'] text-primary mb-4 inline-block">logo</a>
+<p class="text-gray-400 mb-4">Изготовление турников премиум-класса с индивидуальным подходом к каждому клиенту</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-[#1A1A1A] rounded-full text-gray-300 hover:text-primary transition-colors">
+<i class="ri-vk-line"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-[#1A1A1A] rounded-full text-gray-300 hover:text-primary transition-colors">
+<i class="ri-telegram-line"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-[#1A1A1A] rounded-full text-gray-300 hover:text-primary transition-colors">
+<i class="ri-youtube-line"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-[#1A1A1A] rounded-full text-gray-300 hover:text-primary transition-colors">
+<i class="ri-instagram-line"></i>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Продукция</h3>
+<ul class="space-y-2">
+<li><a href="#products" class="text-gray-400 hover:text-primary transition-colors">Настенные турники</a></li>
+<li><a href="#products" class="text-gray-400 hover:text-primary transition-colors">Потолочные турники</a></li>
+<li><a href="#products" class="text-gray-400 hover:text-primary transition-colors">Напольные турники</a></li>
+<li><a href="#products" class="text-gray-400 hover:text-primary transition-colors">Уличные турники</a></li>
+<li><a href="#products" class="text-gray-400 hover:text-primary transition-colors">Дверные турники</a></li>
+<li><a href="#products" class="text-gray-400 hover:text-primary transition-colors">Турники с разным хватом</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Информация</h3>
+<ul class="space-y-2">
+<li><a href="#about" class="text-gray-400 hover:text-primary transition-colors">О компании</a></li>
+<li><a href="#advantages" class="text-gray-400 hover:text-primary transition-colors">Преимущества</a></li>
+<li><a href="#reviews" class="text-gray-400 hover:text-primary transition-colors">Отзывы</a></li>
+<li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Доставка и оплата</a></li>
+<li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Гарантия</a></li>
+<li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Блог</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Контакты</h3>
+<ul class="space-y-2">
+<li class="flex items-center">
+<i class="ri-phone-line mr-2 text-primary"></i>
+<a href="tel:+78001234567" class="text-gray-400 hover:text-primary transition-colors">+7 (800) 123-45-67</a>
+</li>
+<li class="flex items-center">
+<i class="ri-mail-line mr-2 text-primary"></i>
+<a href="mailto:info@turniki-premium.ru" class="text-gray-400 hover:text-primary transition-colors">info@turniki-premium.ru</a>
+</li>
+<li class="flex items-start">
+<i class="ri-map-pin-line mr-2 text-primary mt-1"></i>
+<span class="text-gray-400">г. Москва, ул. Спортивная, 42</span>
+</li>
+<li class="flex items-center">
+<i class="ri-time-line mr-2 text-primary"></i>
+<span class="text-gray-400">Пн-Вс: 10:00-20:00</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-[#333] pt-6 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Турники Премиум. Все права защищены.</p>
+<div class="flex flex-wrap gap-4">
+<a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm" id="deliveryInfoBtn">Доставка</a>
+<a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm" id="termsBtn">Пользовательское соглашение</a>
+<a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm" id="contactsBtn">Контакты и реквизиты</a>
+<a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Карта сайта</a>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- Модальное окно с информацией о доставке -->
+<div id="deliveryModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+<div class="bg-[#1A1A1A] rounded-lg w-full max-w-2xl mx-4 overflow-hidden max-h-[90vh] flex flex-col">
+<div class="flex justify-between items-center p-6 border-b border-[#333]">
+<h3 class="text-xl font-semibold">Информация о доставке</h3>
+<button class="closeDeliveryModal text-gray-400 hover:text-white">
+<i class="ri-close-line ri-lg"></i>
+</button>
+</div>
+<div class="p-6 overflow-y-auto">
+<div class="space-y-6">
+<div>
+<h4 class="text-lg font-semibold mb-3">Способы доставки</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-truck-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Курьерская доставка</h5>
+</div>
+<p class="text-gray-400">Доставка курьером до двери в течение 1-3 рабочих дней. Стоимость от 500 ₽.</p>
+</div>
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-store-2-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Самовывоз</h5>
+</div>
+<p class="text-gray-400">Бесплатный самовывоз из нашего магазина в Москве. Адрес: ул. Спортивная, 42.</p>
+</div>
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-truck-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Транспортная компания</h5>
+</div>
+<p class="text-gray-400">Доставка в любой город России через транспортные компании. Стоимость рассчитывается индивидуально.</p>
+</div>
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-truck-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Почта России</h5>
+</div>
+<p class="text-gray-400">Доставка почтой России в течение 5-14 дней. Стоимость от 300 ₽.</p>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">Условия доставки</h4>
+<ul class="list-disc list-inside text-gray-400 space-y-2">
+<li>Доставка осуществляется только после полной оплаты заказа</li>
+<li>При получении заказа проверяйте комплектацию и целостность упаковки</li>
+<li>Возможна доставка в выходные и праздничные дни по предварительной договоренности</li>
+<li>При заказе от 50 000 ₽ доставка бесплатная</li>
+</ul>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">Сроки доставки</h4>
+<p class="text-gray-400">Стандартные сроки доставки:</p>
+<ul class="list-disc list-inside text-gray-400 space-y-2 mt-2">
+<li>Москва и МО: 1-2 дня</li>
+<li>Санкт-Петербург: 2-3 дня</li>
+<li>Другие города: 3-14 дней в зависимости от выбранного способа доставки</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Модальное окно с пользовательским соглашением -->
+<div id="termsModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+<div class="bg-[#1A1A1A] rounded-lg w-full max-w-2xl mx-4 overflow-hidden max-h-[90vh] flex flex-col">
+<div class="flex justify-between items-center p-6 border-b border-[#333]">
+<h3 class="text-xl font-semibold">Пользовательское соглашение</h3>
+<button class="closeTermsModal text-gray-400 hover:text-white">
+<i class="ri-close-line ri-lg"></i>
+</button>
+</div>
+<div class="p-6 overflow-y-auto">
+<div class="space-y-6">
+<div>
+<h4 class="text-lg font-semibold mb-3">1. Общие положения</h4>
+<p class="text-gray-400">Настоящее Пользовательское соглашение регулирует отношения между ООО "Турники Премиум" (далее — «Компания») и любым лицом (далее — «Пользователь»), использующим сайт компании и/или приобретающим товары компании.</p>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">2. Предмет соглашения</h4>
+<p class="text-gray-400">Компания предоставляет Пользователю доступ к сайту и возможность приобретения товаров компании на условиях, изложенных в настоящем соглашении.</p>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">3. Порядок оформления заказа</h4>
+<p class="text-gray-400">Заказ оформляется путем заполнения формы на сайте. После оформления заказа Пользователь получает подтверждение на указанный email.</p>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">4. Оплата и доставка</h4>
+<p class="text-gray-400">Оплата производится любым из способов, указанных на сайте. Доставка осуществляется в соответствии с выбранным способом доставки.</p>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">5. Возврат товара</h4>
+<p class="text-gray-400">Пользователь вправе вернуть товар в течение 14 дней с момента получения, если товар не подошел по размеру, цвету или другим параметрам.</p>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">6. Конфиденциальность</h4>
+<p class="text-gray-400">Компания обязуется не разглашать персональные данные Пользователя и использовать их только для обработки заказа.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Модальное окно с контактами и реквизитами -->
+<div id="contactsModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+<div class="bg-[#1A1A1A] rounded-lg w-full max-w-2xl mx-4 overflow-hidden max-h-[90vh] flex flex-col">
+<div class="flex justify-between items-center p-6 border-b border-[#333]">
+<h3 class="text-xl font-semibold">Контакты и реквизиты</h3>
+<button class="closeContactsModal text-gray-400 hover:text-white">
+<i class="ri-close-line ri-lg"></i>
+</button>
+</div>
+<div class="p-6 overflow-y-auto">
+<div class="space-y-6">
+<div>
+<h4 class="text-lg font-semibold mb-3">Контактная информация</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-phone-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Телефон</h5>
+</div>
+<p class="text-gray-400">+7 (800) 123-45-67</p>
+<p class="text-gray-400 text-sm">Пн-Пт: 9:00-20:00</p>
+<p class="text-gray-400 text-sm">Сб-Вс: 10:00-18:00</p>
+</div>
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-mail-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Email</h5>
+</div>
+<p class="text-gray-400">info@turniki-premium.ru</p>
+<p class="text-gray-400 text-sm">Отвечаем в течение 24 часов</p>
+</div>
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-map-pin-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Адрес</h5>
+</div>
+<p class="text-gray-400">г. Москва, ул. Спортивная, 42</p>
+<p class="text-gray-400 text-sm">Шоурум и офис</p>
+<p class="text-gray-400 text-sm">Ежедневно: 10:00-20:00</p>
+</div>
+<div class="bg-[#222] p-4 rounded-lg">
+<div class="flex items-center mb-3">
+<i class="ri-customer-service-2-line ri-xl text-primary mr-3"></i>
+<h5 class="font-semibold">Поддержка</h5>
+</div>
+<p class="text-gray-400">support@turniki-premium.ru</p>
+<p class="text-gray-400 text-sm">Круглосуточно</p>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-3">Реквизиты компании</h4>
+<div class="bg-[#222] p-4 rounded-lg">
+<p class="text-gray-400"><strong>ООО "Турники Премиум"</strong></p>
+<p class="text-gray-400">ИНН: 7712345678</p>
+<p class="text-gray-400">ОГРН: 1234567890123</p>
+<p class="text-gray-400">Юридический адрес: 123456, г. Москва, ул. Спортивная, 42</p>
+<p class="text-gray-400">Банковские реквизиты:</p>
+<p class="text-gray-400">Р/с: 40702810123456789012</p>
+<p class="text-gray-400">Банк: ПАО "Сбербанк"</p>
+<p class="text-gray-400">БИК: 044525225</p>
+<p class="text-gray-400">К/с: 30101810400000000225</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+// ... existing code ...
+
+// Обработчики для новых модальных окон
+const deliveryInfoBtn = document.getElementById('deliveryInfoBtn');
+const termsBtn = document.getElementById('termsBtn');
+const contactsBtn = document.getElementById('contactsBtn');
+
+const deliveryModal = document.getElementById('deliveryModal');
+const termsModal = document.getElementById('termsModal');
+const contactsModal = document.getElementById('contactsModal');
+
+const closeDeliveryModal = document.querySelector('.closeDeliveryModal');
+const closeTermsModal = document.querySelector('.closeTermsModal');
+const closeContactsModal = document.querySelector('.closeContactsModal');
+
+// Открытие модальных окон
+deliveryInfoBtn.addEventListener('click', function() {
+deliveryModal.classList.add('active');
+document.body.style.overflow = 'hidden';
+});
+
+termsBtn.addEventListener('click', function() {
+termsModal.classList.add('active');
+document.body.style.overflow = 'hidden';
+});
+
+contactsBtn.addEventListener('click', function() {
+contactsModal.classList.add('active');
+document.body.style.overflow = 'hidden';
+});
+
+// Закрытие модальных окон
+closeDeliveryModal.addEventListener('click', function() {
+deliveryModal.classList.remove('active');
+document.body.style.overflow = '';
+});
+
+closeTermsModal.addEventListener('click', function() {
+termsModal.classList.remove('active');
+document.body.style.overflow = '';
+});
+
+closeContactsModal.addEventListener('click', function() {
+contactsModal.classList.remove('active');
+document.body.style.overflow = '';
+});
+
+// Закрытие модальных окон при клике вне их области
+window.addEventListener('click', function(event) {
+if (event.target === deliveryModal) {
+deliveryModal.classList.remove('active');
+document.body.style.overflow = '';
+}
+if (event.target === termsModal) {
+termsModal.classList.remove('active');
+document.body.style.overflow = '';
+}
+if (event.target === contactsModal) {
+contactsModal.classList.remove('active');
+document.body.style.overflow = '';
+}
+});
+</script>
+
+<!-- Кнопка наверх и поддержка -->
+<div class="fixed right-6 bottom-6 z-50 flex flex-col items-end space-y-4">
+<button id="scrollTopBtn" class="scroll-top w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg opacity-0 invisible">
+<i class="ri-arrow-up-line ri-lg"></i>
+</button>
+<button id="supportBtn" class="support-btn w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white shadow-lg">
+<i class="ri-customer-service-2-line ri-lg"></i>
+</button>
+</div>
+<!-- Модальное окно поддержки -->
+<div id="supportModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+<div class="bg-[#1A1A1A] rounded-lg w-full max-w-md mx-4 overflow-hidden">
+<div class="flex justify-between items-center p-6 border-b border-[#333]">
+<h3 class="text-xl font-semibold">Связаться с нами</h3>
+<button id="closeSupportModal" class="text-gray-400 hover:text-white">
+<i class="ri-close-line ri-lg"></i>
+</button>
+</div>
+<div class="p-6">
+<p class="text-gray-300 mb-6">Оставьте свои контактные данные, и мы свяжемся с вами в ближайшее время</p>
+<form id="supportForm">
+<div class="mb-4">
+<label for="supportName" class="block mb-2 text-gray-300">Ваше имя</label>
+<input type="text" id="supportName" name="name" class="w-full bg-[#222] border border-[#333] rounded px-4 py-3 text-white" placeholder="Введите ваше имя" required>
+</div>
+<div class="mb-4">
+<label for="supportPhone" class="block mb-2 text-gray-300">Номер телефона</label>
+<input type="tel" id="supportPhone" name="phone" class="w-full bg-[#222] border border-[#333] rounded px-4 py-3 text-white" placeholder="+7 (___) ___-__-__" required>
+</div>
+<div class="mb-4">
+<label for="supportMessage" class="block mb-2 text-gray-300">Сообщение</label>
+<textarea id="supportMessage" name="message" rows="3" class="w-full bg-[#222] border border-[#333] rounded px-4 py-3 text-white" placeholder="Опишите ваш вопрос"></textarea>
+</div>
+<div class="mb-6">
+<label class="custom-checkbox mb-2">
+<input type="checkbox" name="supportAgreement" checked required>
+<span class="checkmark"></span>
+<span class="text-gray-300 ml-2">Я согласен на обработку персональных данных</span>
+</label>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-3 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap">Отправить</button>
+</form>
+</div>
+</div>
+</div>
+<!-- Модальное окно благодарности -->
+<div id="thanksModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+<div class="bg-[#1A1A1A] rounded-lg w-full max-w-md mx-4 overflow-hidden">
+<div class="flex justify-between items-center p-6 border-b border-[#333]">
+<h3 class="text-xl font-semibold">Спасибо за заявку!</h3>
+<button class="closeThanksModal text-gray-400 hover:text-white">
+<i class="ri-close-line ri-lg"></i>
+</button>
+</div>
+<div class="p-6 text-center">
+<div class="w-20 h-20 mx-auto flex items-center justify-center bg-primary bg-opacity-10 rounded-full mb-6">
+<i class="ri-check-line ri-2x text-primary"></i>
+</div>
+<p class="text-gray-300 mb-6">Ваша заявка успешно отправлена! Наш специалист свяжется с вами в ближайшее время.</p>
+<button class="closeThanksModal bg-primary text-white py-3 px-6 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap">Закрыть</button>
+</div>
+</div>
+</div>
+<!-- Модальное окно оплаты -->
+<div id="paymentModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+<div class="bg-[#1A1A1A] rounded-lg w-full max-w-md mx-4 overflow-hidden max-h-[90vh] flex flex-col">
+<div class="flex justify-between items-center p-6 border-b border-[#333]">
+<h3 class="text-xl font-semibold">Оплата заказа</h3>
+<button class="closePaymentModal text-gray-400 hover:text-white">
+<i class="ri-close-line ri-lg"></i>
+</button>
+</div>
+<div class="p-6 overflow-y-auto">
+<div class="mb-6">
+<h4 class="text-lg font-semibold mb-2" id="paymentProductName"></h4>
+<p class="text-gray-400">Сумма к оплате: <span id="paymentAmount" class="text-white font-semibold"></span> ₽</p>
+</div>
+<form id="paymentForm">
+<div class="mb-4">
+<label for="paymentName" class="block mb-2 text-gray-300">Ваше имя</label>
+<input type="text" id="paymentName" name="name" class="w-full bg-[#222] border border-[#333] rounded px-4 py-3 text-white" placeholder="Введите ваше имя" required>
+</div>
+<div class="mb-4">
+<label for="paymentPhone" class="block mb-2 text-gray-300">Номер телефона</label>
+<input type="tel" id="paymentPhone" name="phone" class="w-full bg-[#222] border border-[#333] rounded px-4 py-3 text-white" placeholder="+7 (___) ___-__-__" required>
+</div>
+<div class="mb-4">
+<label for="paymentEmail" class="block mb-2 text-gray-300">Email</label>
+<input type="email" id="paymentEmail" name="email" class="w-full bg-[#222] border border-[#333] rounded px-4 py-3 text-white" placeholder="example@mail.ru" required>
+</div>
+<div class="mb-4">
+<label for="paymentAddress" class="block mb-2 text-gray-300">Адрес доставки</label>
+<input type="text" id="paymentAddress" name="address" class="w-full bg-[#222] border border-[#333] rounded px-4 py-3 text-white" placeholder="Введите адрес доставки" required>
+</div>
+<div class="mb-6">
+<label class="custom-checkbox mb-2">
+<input type="checkbox" name="paymentAgreement" checked required>
+<span class="checkmark"></span>
+<span class="text-gray-300 ml-2">Я согласен с условиями оплаты</span>
+</label>
+</div>
+<div class="flex gap-4">
+<button type="submit" class="flex-1 bg-primary text-white py-3 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap">Оплатить</button>
+<button type="button" class="closePaymentModal flex-1 bg-[#333] text-white py-3 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap">Отмена</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- Модальное окно ошибки -->
+<div id="errorModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+<div class="bg-[#1A1A1A] rounded-lg w-full max-w-md mx-4 overflow-hidden">
+<div class="flex justify-between items-center p-6 border-b border-[#333]">
+<h3 class="text-xl font-semibold">Ошибка!</h3>
+<button class="closeErrorModal text-gray-400 hover:text-white">
+<i class="ri-close-line ri-lg"></i>
+</button>
+</div>
+<div class="p-6 text-center">
+<div class="w-20 h-20 mx-auto flex items-center justify-center bg-red-500 bg-opacity-10 rounded-full mb-6">
+<i class="ri-error-warning-line ri-2x text-red-500"></i>
+</div>
+<p class="text-gray-300 mb-6" id="errorMessage">Пожалуйста, подтвердите согласие на обработку персональных данных.</p>
+<button class="closeErrorModal bg-primary text-white py-3 px-6 !rounded-button font-medium hover:bg-opacity-90 transition-all whitespace-nowrap">Закрыть</button>
+</div>
+</div>
+</div>
+<script src="script/script.js"></script>
+<script>
+    // Обработка формы оплаты
+paymentForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Проверка согласия с условиями
+    const agreementCheckbox = this.querySelector('input[name="paymentAgreement"]');
+    if (!agreementCheckbox.checked) {
+        document.getElementById('errorMessage').textContent = 'Пожалуйста, подтвердите согласие с условиями оплаты.';
+        errorModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        return;
+    }
+
+    // Сбор данных формы
+    const formData = new FormData(this);
+    const formObject = {
+        product: document.getElementById('paymentProductName').textContent,
+        price: document.getElementById('paymentAmount').textContent
+    };
+    
+    formData.forEach((value, key) => {
+        formObject[key] = value;
+    });
+
+    // 1. Отправка данных в Telegram
+    const BOT_TOKEN = '6731114231:AAGzev_SCeljR5txCCCJPxYRJC4XFgk71_8';
+    const CHAT_ID = '791374398';
+    
+    let message = `<b>Новый заказ на оплату</b>\n\n`;
+    message += `<b>Товар:</b> ${formObject.product}\n`;
+    message += `<b>Сумма:</b> ${formObject.price} ₽\n`;
+    message += `<b>Имя:</b> ${formObject.name}\n`;
+    message += `<b>Телефон:</b> ${formObject.phone}\n`;
+    message += `<b>Email:</b> ${formObject.email}\n`;
+    message += `<b>Адрес:</b> ${formObject.address}\n`;
+    
+    fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            chat_id: CHAT_ID,
+            text: message,
+            parse_mode: 'HTML'
+        })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Ошибка отправки в Telegram');
+        }
+        
+        // 2. Перенаправление на ЮMoney после успешной отправки в Telegram
+        const yooMoneyUrl = new URL('https://yoomoney.ru/quickpay/confirm.xml');
+        
+        const params = {
+            receiver: '410019178238860',
+            formcomment: 'Оплата заказа',
+            'short-dest': 'Оплата заказа',
+            label: 'order_' + Date.now(), // Уникальный ID заказа
+            'quickpay-form': 'shop',
+            targets: `Оплата: ${formObject.product}`,
+            sum: formObject.price.replace(/\D/g, ''), // Оставляем только цифры
+            paymentType: 'AC', // Банковская карта
+            successURL: window.location.href + '?payment=success',
+            failURL: window.location.href + '?payment=failed'
+        };
+        
+        Object.entries(params).forEach(([key, value]) => {
+            yooMoneyUrl.searchParams.set(key, value);
+        });
+        
+        // Перенаправляем пользователя
+        window.location.href = yooMoneyUrl.toString();
+        
+        // Закрываем модальное окно
+        paymentModal.classList.remove('active');
+        document.body.style.overflow = '';
+    })
+    .catch(error => {
+        console.error('Ошибка:', error);
+        document.getElementById('errorMessage').textContent = 'Произошла ошибка при отправке данных. Пожалуйста, попробуйте еще раз.';
+        errorModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    });
+});
+</script>
+</body>
+</html>
